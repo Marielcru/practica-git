@@ -1,0 +1,18 @@
+body{
+    border-left-color: rgb(206, 132, 35);
+}
+
+h1{/*encabezado*/
+    /*1*/   color: black;
+    /*2*/   text-decoration: underline;
+    /*3*/   text-align: center;
+    /*4*/   font-size: 50px;
+    /*5*/   font-family: fantasy
+}
+h2{/*datos*/
+    color:black; /*colores en exadecimal este es azul*/
+    text-decoration: threedshadow; /*subrayado*/
+    text-align: center; /*alineacion del texto*/
+    font-size: 25px; /*tamañofuente*/
+    font-family: serif /*tipo de letra no hay muchas opciones*/
+}
