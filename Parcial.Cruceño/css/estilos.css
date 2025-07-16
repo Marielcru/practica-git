@@ -1,0 +1,38 @@
+/* Aquí podés escribir tus estilos CSS nativos */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: #8f0c8a00;
+    color:#0b0a0a;
+    padding: 20px;
+}
+header{
+    background-color: #0283f450;
+    color: rgb(8, 8, 8);
+    padding: 20px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+ 
+}
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+@media (max-width: 600px) {
+ nav ul li {
+ display: block;
+ margin: 10px 0;
+ }
+}
